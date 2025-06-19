@@ -56,3 +56,9 @@ temp/
 *.yaml
 data.yaml
 config.yaml
+
+
+# 무시 규칙
+assets/*
+!assets/test_video/
+!assets/test_video/*.mp4
