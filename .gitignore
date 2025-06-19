@@ -62,3 +62,5 @@ config.yaml
 assets/*
 !assets/test_video/
 !assets/test_video/*.mp4
+!assets/demo_video/
+!assets/demo_video/*.mp4
