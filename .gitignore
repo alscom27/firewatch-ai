@@ -1,4 +1,58 @@
-.env
+# ▶️ Python 기본
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# ▶️ 가상환경
+.venv/
+env/
+venv/
+ENV/
+
+# ▶️ Jupyter / IPython
+.ipynb_checkpoints/
+
+# ▶️ VSCode 설정
+.vscode/
+
+# ▶️ OS/에디터 불필요 파일
+.DS_Store
+Thumbs.db
+
+# ▶️ YOLO / 모델 가중치 / 추론 결과
 runs/
+weights/
+*.pt
+*.onnx
+*.tflite
+
+# ▶️ Roboflow 다운로드 관련
+*.zip
+*.tar.gz
+*.dataset/
+*.roboflow.txt
+README.dataset.txt
+README.roboflow.txt
+
+# ▶️ Streamlit 캐시
+.streamlit/
+.dbcache/
+*.pickle
+
+# ▶️ 데이터/영상 업로드 임시 파일
+*.mp4
+*.avi
+*.mov
+*.webm
+tmp/
+temp/
+*.tmp
+
+# ▶️ 기타
+*.yaml
+data.yaml
+config.yaml
